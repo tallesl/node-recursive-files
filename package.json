@@ -4,6 +4,9 @@
     "url": "https://github.com/tallesl/recursive-files/issues"
   },
   "description": "asynchronous recursive readdir",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  },
   "homepage": "https://github.com/tallesl/recursive-files",
   "keywords": [
     "async",
@@ -18,8 +21,7 @@
     "url": "https://github.com/tallesl/recursive-files"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "version": "1.0.0"
 }
-
