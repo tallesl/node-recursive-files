@@ -1,12 +1,30 @@
 # Recursive Files
 
-[![build](https://travis-ci.org/tallesl/recursive-files.png)](https://travis-ci.org/tallesl/recursive-files)
-[![coverage](https://coveralls.io/repos/tallesl/recursive-files/badge.png?branch=master)](https://coveralls.io/r/tallesl/recursive-files?branch=master)
-[![dependencies](https://david-dm.org/tallesl/recursive-files.png)](https://david-dm.org/tallesl/recursive-files)
-[![devDependencies](https://david-dm.org/tallesl/recursive-files/dev-status.png)](https://david-dm.org/tallesl/recursive-files#info=devDependencies)
-[![npm module](https://badge.fury.io/js/recursive-files.png)](http://badge.fury.io/js/recursive-files)
+[![][build-img]][build]
+[![][coverage-img]][coverage]
+[![][dependencies-img]][dependencies]
+[![][devdependencies-img]][devdependencies]
+[![][module-img]][module]
 
-[![npm](https://nodei.co/npm/recursive-files.png?mini=true)](https://nodei.co/npm/recursive-files/)
+[![][npm-img]][npm]
+
+[build]:     https://travis-ci.org/tallesl/recursive-files
+[build-img]: https://travis-ci.org/tallesl/recursive-files.png
+
+[coverage]:     https://coveralls.io/r/tallesl/recursive-files?branch=master
+[coverage-img]: https://coveralls.io/repos/tallesl/recursive-files/badge.png?branch=master
+
+[dependencies]:     https://david-dm.org/tallesl/recursive-files
+[dependencies-img]: https://david-dm.org/tallesl/recursive-files.png
+
+[devdependencies]:     https://david-dm.org/tallesl/recursive-files#info=devDependencies
+[devdependencies-img]: https://david-dm.org/tallesl/recursive-files/dev-status.png
+
+[module]:     http://badge.fury.io/js/recursive-files
+[module-img]: https://badge.fury.io/js/recursive-files.png
+
+[npm]:     https://nodei.co/npm/recursive-files/
+[npm-img]: https://nodei.co/npm/recursive-files.png?mini=true
 
 ## recursiveFiles (dir, [options], callback)
 
