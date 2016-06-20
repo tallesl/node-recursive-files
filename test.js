@@ -5,7 +5,6 @@ const recursiveFiles = require('.')
 
 /* global it */
 
-
 it('should list everything including hidden', (done) => {
   const files = [ ]
 
@@ -68,4 +67,11 @@ it('should list only .txt', (done) => {
     )
     done()
   }, 200)
+})
+
+it('should error', (done) => {
+  recursiveFiles('non-existent', (err) => {
+    assert.equal(err.code, 'ENOENT')
+    done()
+  })
 })
