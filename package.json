@@ -1,29 +1,28 @@
 {
   "author": "Talles L <talleslasmar@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tallesl/recursive-files/issues"
+    "url": "https://github.com/tallesl/node-recursive-files/issues"
   },
-  "description": "asynchronous recursive readdir",
+  "description": "Asynchronous recursive readdir.",
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.2",
-    "mocha": "^2.0.1"
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3",
+    "standard": "^7.1.2"
   },
-  "homepage": "https://github.com/tallesl/recursive-files",
   "keywords": [
     "async",
     "recursive",
     "readdir"
   ],
   "license": "Fair",
-  "main": "./lib/recursive-files.js",
   "name": "recursive-files",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tallesl/recursive-files"
+    "url": "https://github.com/tallesl/node-recursive-files.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
   "version": "1.0.1"
 }
